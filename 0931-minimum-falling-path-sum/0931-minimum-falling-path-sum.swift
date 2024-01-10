@@ -4,6 +4,11 @@ class Solution {
         let m = matrix.count
         let n = matrix[0].count
         
+        /// Using Bottom up approach of sumit
+        /// using tabular method
+        /// Decide direction
+        /// Assign meaning
+        /// Travel and solve
         var dp = Array(repeating: Array(repeating: -1, count: n), count: m)
         
         for i in (0..<m).reversed() {
