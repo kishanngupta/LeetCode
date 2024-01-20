@@ -5,6 +5,7 @@ class Solution {
         let l2 = text2.count
         let s1 = Array(text1)
         let s2 = Array(text2)
+        // var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: l2), count: l1)
         var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: l2+1), count: l1+1)
         
         for i in 1...l1 {
