@@ -6,18 +6,21 @@ class Solution {
         let s1 = Array(text1)
         let s2 = Array(text2)
         // var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: l2), count: l1)
-        var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: l2+1), count: l1+1)
+        // var dp: [[Int]] = Array(repeating: Array(repeating: 0, count: l2+1), count: l1+1)
+        var prev: [Int] = Array(repeating: 0, count: l2+1)
+        var cur: [Int] = Array(repeating: 0, count: l2+1)
         
         for i in 1...l1 {
             for j in 1...l2 {
                 if s1[i-1]==s2[j-1] { 
-                    dp[i][j] = 1 + dp[i-1][j-1]
+                    cur[j] = 1 + prev[j-1]
                 } else {
-                    dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+                    cur[j] = max(prev[j], cur[j-1])
                 }
             }
+            prev = cur
         }
-        return dp[l1][l2]
+        return cur[l2]
         // return calculate(l1-1,l2-1, Array(text1), Array(text2), &dp)
     }
     
