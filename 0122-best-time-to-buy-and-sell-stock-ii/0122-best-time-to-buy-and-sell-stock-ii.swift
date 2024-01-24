@@ -5,7 +5,7 @@ class Solution {
         var cur: [Int] = Array(repeating: 0, count: 2)
 
         for i in (0..<n).reversed() {
-            for j in (0..<2) {
+            for j in (0..<2).reversed() {
                 if j == 1 {
                     let buy = -prices[i] + prev[0]
                     let notBuy = prev[1]
