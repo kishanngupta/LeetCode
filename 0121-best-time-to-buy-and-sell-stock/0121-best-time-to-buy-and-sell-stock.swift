@@ -4,8 +4,9 @@ class Solution {
         var profit = 0
 
         for price in prices {
-            if (price-buyPrice) > profit {
-                profit = (price-buyPrice)
+            let diff = (price-buyPrice)
+            if diff > profit {
+                profit = diff
             }
 
             buyPrice = min(buyPrice, price)
