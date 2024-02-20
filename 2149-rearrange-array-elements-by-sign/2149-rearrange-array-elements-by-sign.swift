@@ -1,22 +1,18 @@
 class Solution {
     func rearrangeArray(_ nums: [Int]) -> [Int] {
-        var i = 0
-        var j = 0
-        var result: [Int] = []
+        var posIndex = 0
+        var negIndex = 1
+        var result: [Int] = nums
 
-        while(i<nums.count && j<nums.count) {
-            if !(nums[i] >= 0) {
-                i += 1
-            } else if !(nums[j] < 0) {
-                j += 1
+        for item in nums {
+            if item < 0 {
+                result[negIndex] = item
+                negIndex += 2
             } else {
-                result.append(nums[i])
-                result.append(nums[j])
-                i+=1
-                j+=1
-            }
+                result[posIndex] = item
+                posIndex += 2
+            } 
         }
         return result
-        
     }
 }
