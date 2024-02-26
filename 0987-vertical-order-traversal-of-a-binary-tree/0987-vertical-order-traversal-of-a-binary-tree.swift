@@ -14,54 +14,47 @@
  * }
  */
 class Solution {
-    var queue: [DataStructure] = []
-    var result: [[Int]] = []
-    
+    var result: [DataStructure] = []
     func verticalTraversal(_ root: TreeNode?) -> [[Int]] {
-        if root == nil { return [] }
+        var output: [[Int]] = []
+        traverse(root,0,0)
+        result.sort()
         
-        inOrder(root,0,0)
-        queue.sort()
-        group()
-        return result
-    }
-    
-    private func group() {
-        var temp: [Int] = []
-        for i in 0..<queue.count {
-            if i < 1 {
-                temp.append(queue[i].val)
+        for (index,item) in result.enumerated() {
+            if output.isEmpty {
+                output.append([item.val])
             } else {
-                if queue[i-1].x == queue[i].x {
-                    temp.append(queue[i].val)
+                if result[index-1].x == item.x {
+                    output[output.count-1].append(item.val)
                 } else {
-                    result.append(temp)
-                    temp = [queue[i].val]
+                    output.append([item.val])
                 }
-            }
+            } 
         }
-        result.append(temp)
+        
+        return output
     }
     
-    private func inOrder(_ root: TreeNode?,_ x: Int,_ y: Int) {
+    func traverse(_ root: TreeNode?,_ x: Int,_ y: Int) {
         if root == nil { return }
-        inOrder(root?.left, x-1, y-1)
-        let model = DataStructure(
-            x: x,
-            y: y,
-            val: root!.val
-        )
-        queue.append(model)
-        inOrder(root?.right, x+1, y-1)
+        traverse(root?.left, x-1,y-1)
+        let model = DataStructure(root!.val,x,y)
+        result.append(model)
+        traverse(root?.right, x+1,y-1)
     }
 }
-
 struct DataStructure: Comparable {
+    var val: Int
     var x: Int
     var y: Int
-    var val: Int
     
-    static func < (lhs: DataStructure, rhs: DataStructure) -> Bool {
+    init(_ value: Int,_ xAxis: Int,_ yAxis: Int) {
+        val = value
+        x = xAxis
+        y = yAxis
+    }
+    
+    static func <(lhs: DataStructure, rhs: DataStructure) -> Bool {
         if lhs.x != rhs.x {
             return lhs.x < rhs.x
         } else if lhs.y != rhs.y {
@@ -70,4 +63,5 @@ struct DataStructure: Comparable {
             return lhs.val < rhs.val
         }
     }
+    
 }
