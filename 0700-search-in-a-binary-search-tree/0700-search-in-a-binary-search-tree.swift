@@ -15,9 +15,10 @@
  */
 class Solution {
     func searchBST(_ root: TreeNode?, _ val: Int) -> TreeNode? {
-        if root == nil { return nil }
-        else if root!.val == val { return root }
-        else if root!.val < val { return searchBST(root?.right, val)
-        } else { return searchBST(root?.left, val) }
+        var root = root
+        while(root != nil && root!.val != val) {
+            root = root!.val > val ? root?.left : root?.right
+        }
+        return root
     }
 }
