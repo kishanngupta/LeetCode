@@ -11,11 +11,28 @@ class Solution {
 
         var visited: [Bool] = Array(repeating: false, count: isConnected.count+1)
         var count = 0
+        ///Used in case of BFS traverse
+        var queue: [Int] = []
 
         for i in 1...isConnected.count {
             if visited[i] == false {
                 count += 1
-                traverseDFS(i)
+                // traverseDFS(i)
+                traverseBFS(i)
+            }
+        }
+
+        func traverseBFS(_ root: Int) {
+            queue.append(root)
+
+            while !queue.isEmpty {
+                let node = queue.removeFirst()
+                for child in adjList[node] {
+                    if visited[child] == false {
+                        visited[child] = true
+                        queue.append(child)
+                    }
+                }
             }
         }
 
