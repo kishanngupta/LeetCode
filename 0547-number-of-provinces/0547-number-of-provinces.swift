@@ -1,34 +1,31 @@
 class Solution {
     func findCircleNum(_ isConnected: [[Int]]) -> Int {
-        var adjList: [[Int]] = Array(repeating: [], count: isConnected.count)
-
+        var adjList: [[Int]] = Array(repeating: [], count: isConnected.count+1)
         for i in 0..<isConnected.count {
-            for j in 0..<isConnected[i].count {
-                if isConnected[i][j] == 1 && i != j {
-                    adjList[i].append(j)
-                    adjList[j].append(i)
+            for j in 0..<isConnected[0].count {
+                if i != j && isConnected[i][j] == 1 {
+                    adjList[i+1].append(j+1)
                 }
             }
         }
 
-        var visit: [Int] = Array(repeating: 0, count: isConnected.count)
+        var visited: [Bool] = Array(repeating: false, count: isConnected.count+1)
         var count = 0
-        for i in 0..<isConnected.count {
-            if visit[i] == 0 {
+
+        for i in 1...isConnected.count {
+            if visited[i] == false {
                 count += 1
-                dfs(i, adjList, &visit)
+                traverseDFS(i)
             }
         }
+
+        func traverseDFS(_ root: Int) {
+            visited[root] = true
+            for child in adjList[root] where visited[child] == false {
+                traverseDFS(child)
+            }
+        }
+
         return count
-    }
-
-    func dfs(_ i: Int, _ adjList: [[Int]],_ visit: inout [Int]) {
-        visit[i] = 1
-
-        for item in adjList[i] {
-            if visit[item] == 0 {
-                dfs(item, adjList, &visit)
-            }
-        }
     }
 }
