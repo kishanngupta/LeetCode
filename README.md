@@ -11,3 +11,6 @@
 - Imagine me as a character🦸 in a story where the problems i solves are like villains🧟‍♀️, and my code snippets are the heroes🦸. 
 - I don't brag about myself🤷; I am just a regular person trying to figure out the challenges of LeetCode🤕. 
 - So, here's to hoping your code is free of bugs, and your solutions are as clever as my jokes. Happy coding!🧑‍💻
+
+## My LeetCode stats
+[![hashtag_kishan's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=hashtag_kishan&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
