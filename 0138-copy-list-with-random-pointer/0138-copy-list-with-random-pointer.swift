@@ -39,7 +39,6 @@ class Solution {
                 }
             }
 
-            print(temp?.val, temp?.random?.val)
             head = head?.next
         }
         
