@@ -17,3 +17,10 @@
 
 ## My Github stats
 ![](https://komarev.com/ghpvc/?username=kishanngupta&color=blueviolet&style=for-the-badge&base=1234)
+
+
+![kishanngupta's Stats](https://github-readme-stats.vercel.app/api?username=kishanngupta&theme=dark&show_icons=true&hide_border=false&count_private=false)
+
+![kishanngupta's Streak](https://github-readme-streak-stats.herokuapp.com/?user=kishanngupta&theme=dark&hide_border=false)
+
+![kishanngupta's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kishanngupta&theme=dark&show_icons=true&hide_border=false&layout=compact)
