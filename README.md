@@ -14,3 +14,6 @@
 
 ## My LeetCode stats
 [![hashtag_kishan's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=hashtag_kishan&theme=Dark)](https://github.com/JeremyTsaii/leetcode-stats)
+
+## My Github stats
+![](https://komarev.com/ghpvc/?username=kishanngupta&color=blueviolet&style=for-the-badge&base=1234)
