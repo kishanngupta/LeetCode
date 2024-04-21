@@ -14,7 +14,22 @@ class Solution {
                 prev = interval
             }
         }
-
         return count
+        
+        /// Space: O(n) approach
+        /*
+        var result = [intervals.first!]
+        for interval in intervals.dropFirst() {
+            
+            if result.last![0] <= interval[0] && result.last![1] >= interval[1] {
+                continue
+            }
+            result.append(interval)
+        }
+        
+        return result.count
+        */
+
+        
     }
 }
