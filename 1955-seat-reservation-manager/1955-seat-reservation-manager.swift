@@ -1,11 +1,9 @@
 import Collections
 
 final class SeatManager {
-    var n: Int
     var heap: Heap<Int> = []
 
     init(_ n: Int) {
-        self.n = n
         for i in 1...n {
             heap.insert(i)
         }
