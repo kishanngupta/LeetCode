@@ -4,12 +4,12 @@ class Solution {
         var hash: [String: [String]] = [:]
 
         for str in strs {
-            var list: [Int] = Array(repeating: 0, count: 26)
+            var list: [String] = Array(repeating: "0", count: 26)
             for char in str {
                 let index = Int(char.asciiValue!-aAscii)
-                list[index] += 1
+                list[index] = String(Int(list[index])! + 1)
             }
-            hash[list.flatMap{ String($0)}.joined(separator: "#"), default: []] += [str]
+            hash[list.joined(separator: "#"), default: []] += [str]
         }
         return Array(hash.values)
     }
