@@ -9,15 +9,15 @@ class Solution {
         while i<j {
             if height[i] < height[j] {
                 maxLeft = max(height[i], maxLeft)
-                water += height[i]-maxLeft
+                water += maxLeft-height[i]
                 i += 1
             } else {
                 maxRight = max(maxRight, height[j])
-                water += height[j]-maxRight
+                water += maxRight-height[j]
                 j -= 1
             }
         }
 
-        return -water
+        return water
     }
 }
