@@ -1,7 +1,7 @@
 class Codec {
-    var hash: [String: String] = [:]
-    var count = 0
-    var base = "https//leetcode/"
+    private var hash: [String: String] = [:]
+    private var count = 0
+    private var base = "https//leetcode/"
     // Encodes a URL to a shortened URL.
     func encode(_ longUrl: String) -> String {
         let shortUrl = "\(base)\(count)"
