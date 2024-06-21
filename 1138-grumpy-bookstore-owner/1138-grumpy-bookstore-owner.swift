@@ -1,38 +1,26 @@
 class Solution {
-    func maxSatisfied(_ customers: [Int], _ grumpy: [Int], _ m: Int) -> Int
-    {
-        let n = customers.count
-        if m == n { return customers.reduce(0, +) } // all customers satisfied
+    func maxSatisfied(_ customers: [Int], _ grumpy: [Int], _ minutes: Int) -> Int {
+        var left = 0
+        var satisfied = 0
+        var window = 0
+        var maxWindow = 0
 
-        // init non-grumpy window of m length with first m minutes
-        // first m customers will be satisified regardless of grumpy
-        var satisfiedCustomers = customers[0..<m].reduce(0, +) 
-
-        // add the rest of satisfied customers
-        for i in m..<n where grumpy[i] == 0 {
-            satisfiedCustomers += customers[i]
-        }
-
-        var maxSatisfied = satisfiedCustomers
-        var leftBound = 0, rightBound = m
-
-        // advance sliding window to the right, calculating changes
-        while rightBound < n
-        {
-            // left bound falls out of non-grumpy window
-            if grumpy[leftBound] == 1 { 
-                satisfiedCustomers -= customers[leftBound]
+        for right in 0..<customers.count {
+            if grumpy[right] == 1 {
+                window += customers[right]
+            } else {
+                satisfied += customers[right]
             }
 
-            // right bound comes into non-grumpy window
-            if grumpy[rightBound] == 1 { 
-                satisfiedCustomers += customers[rightBound]
+            if right-left+1 > minutes {
+                if grumpy[left] == 1 {
+                    window -= customers[left]
+                }
+                left += 1
             }
-
-            maxSatisfied = max(maxSatisfied, satisfiedCustomers)
-            leftBound += 1
-            rightBound += 1
+            maxWindow = max(maxWindow, window)
         }
-        return maxSatisfied
+
+        return satisfied + maxWindow
     }
 }
