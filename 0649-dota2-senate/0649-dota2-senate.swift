@@ -18,6 +18,7 @@ class Solution {
             }
 
             senate.remove(at: j)
+            /// if removed item appears before i, do not increase the value of i
             if j>i {
                 i+=1
             }
