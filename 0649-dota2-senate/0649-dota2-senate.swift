@@ -3,12 +3,18 @@ class Solution {
         var senate = Array(senate)
         var i = 0
 
+        /// Loop till all other party senator got removed
         while senate.count > 1 {
             var j = (i+1)%senate.count
             var count = 0
+            /// if senator is of same party, skip.
             while senate[j] == senate[i] && count<senate.count {
                 j = (j+1)%senate.count
                 count += 1
+            }
+
+            if count == senate.count {
+                break 
             }
 
             senate.remove(at: j)
@@ -23,6 +29,5 @@ class Solution {
         } else {
             return "Dire"
         }
-        
     }
 }
