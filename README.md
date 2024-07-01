@@ -31,4 +31,8 @@
 |  |
 | ------- |
 | [1293-three-consecutive-odds](https://github.com/kishanngupta/LeetCode/tree/master/1293-three-consecutive-odds) |
+## String
+|  |
+| ------- |
+| [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 <!---LeetCode Topics End-->
