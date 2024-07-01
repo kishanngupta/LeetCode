@@ -35,4 +35,9 @@
 |  |
 | ------- |
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
+| [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
+## Simulation
+|  |
+| ------- |
+| [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 <!---LeetCode Topics End-->
