@@ -24,3 +24,11 @@
 ![kishanngupta's Streak](https://github-readme-streak-stats.herokuapp.com/?user=kishanngupta&theme=dark&hide_border=false)
 
 ![kishanngupta's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kishanngupta&theme=dark&show_icons=true&hide_border=false&layout=compact)
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1293-three-consecutive-odds](https://github.com/kishanngupta/LeetCode/tree/master/1293-three-consecutive-odds) |
+<!---LeetCode Topics End-->
