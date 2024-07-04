@@ -30,6 +30,7 @@
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/kishanngupta/LeetCode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -57,6 +58,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/kishanngupta/LeetCode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
@@ -67,6 +69,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/kishanngupta/LeetCode/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
