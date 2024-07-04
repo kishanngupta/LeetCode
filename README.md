@@ -31,6 +31,7 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/kishanngupta/LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/kishanngupta/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -51,6 +52,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/kishanngupta/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0835-linked-list-components](https://github.com/kishanngupta/LeetCode/tree/master/0835-linked-list-components) |
@@ -70,6 +72,7 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/kishanngupta/LeetCode/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/kishanngupta/LeetCode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -77,6 +80,7 @@
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/kishanngupta/LeetCode/tree/master/0169-majority-element) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
 ## Greedy
 |  |
@@ -96,4 +100,8 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/kishanngupta/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
