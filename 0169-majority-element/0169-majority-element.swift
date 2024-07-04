@@ -1,18 +1,19 @@
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
-        var count = 1
-        var element = nums.first!
+        var element: Int? = nil
+        var count = 0
 
-        for item in nums.dropFirst() {
+        for num in nums {
             if count == 0 {
-                element = item
-                count += 1
-            } else if item == element {
+                element = num
+                count = 1
+            }else if num == element {
                 count += 1
             } else {
                 count -= 1
             }
         }
-        return element
+
+        return element!
     }
 }
