@@ -4,9 +4,9 @@ class Solution {
         var j = 0
         var k = nums.count-1
 
-        while j<=k{
+        while j<=k {
             if nums[j] == 0 {
-                nums.swapAt(i, j)
+                nums.swapAt(i,j)
                 i+=1
                 j+=1
             } else if nums[j] == 1 {
@@ -14,7 +14,8 @@ class Solution {
             } else {
                 nums.swapAt(j,k)
                 k-=1
-            }   
+            }
         }
+        
     }
 }
