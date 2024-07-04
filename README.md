@@ -31,6 +31,7 @@
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0835-linked-list-components](https://github.com/kishanngupta/LeetCode/tree/master/0835-linked-list-components) |
 | [1293-three-consecutive-odds](https://github.com/kishanngupta/LeetCode/tree/master/1293-three-consecutive-odds) |
@@ -49,6 +50,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0835-linked-list-components](https://github.com/kishanngupta/LeetCode/tree/master/0835-linked-list-components) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
@@ -60,10 +62,12 @@
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
@@ -84,4 +88,9 @@
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
