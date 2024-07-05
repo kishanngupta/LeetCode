@@ -30,6 +30,7 @@
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/kishanngupta/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/kishanngupta/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/kishanngupta/LeetCode/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/kishanngupta/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -100,6 +101,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/kishanngupta/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 ## Bit Manipulation
@@ -119,4 +121,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kishanngupta/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/kishanngupta/LeetCode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
