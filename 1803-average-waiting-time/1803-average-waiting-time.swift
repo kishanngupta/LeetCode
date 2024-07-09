@@ -12,12 +12,8 @@ class Solution {
                 nextAvailableTime += customer[1]
                 totalWait += (nextAvailableTime - (customer[0] + customer[1]))
             }
-
             totalWait += customer[1]
-
         }
-
-        print(totalWait)
 
         return Double(totalWait)/Double(customers.count)
     }
