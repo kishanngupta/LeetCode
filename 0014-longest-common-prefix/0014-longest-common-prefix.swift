@@ -1,18 +1,17 @@
 class Solution {
     func longestCommonPrefix(_ strs: [String]) -> String {
-        var stack: [Character] = Array(strs.first!)
+        var result = Array(strs.first!)
 
-        for i in 1..<strs.count {
-            let element = Array(strs[i])            
-            
+        for string in strs {
+            let str = Array(string)
             var i = 0
-            while(i<stack.count && i<element.count && element[i] == stack[i]) {
-                i = i+1
-            }
-            stack = Array(stack[0..<i])
 
+            while i<result.count && i<str.count && str[i] == result[i] {
+                i+=1
+            }
+            result = Array(result[0..<i])
         }
 
-        return String(stack)
+        return String(result)
     }
 }
