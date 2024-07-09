@@ -49,6 +49,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/kishanngupta/LeetCode/tree/master/0014-longest-common-prefix) |
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Simulation
@@ -134,4 +135,8 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/kishanngupta/LeetCode/tree/master/0048-rotate-image) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/kishanngupta/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
