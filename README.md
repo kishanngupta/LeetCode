@@ -51,6 +51,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/kishanngupta/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0205-isomorphic-strings](https://github.com/kishanngupta/LeetCode/tree/master/0205-isomorphic-strings) |
+| [0812-rotate-string](https://github.com/kishanngupta/LeetCode/tree/master/0812-rotate-string) |
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Simulation
@@ -141,4 +142,8 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/kishanngupta/LeetCode/tree/master/0014-longest-common-prefix) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/kishanngupta/LeetCode/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
