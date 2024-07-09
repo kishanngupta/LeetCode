@@ -50,6 +50,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/kishanngupta/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0205-isomorphic-strings](https://github.com/kishanngupta/LeetCode/tree/master/0205-isomorphic-strings) |
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Simulation
@@ -64,6 +65,7 @@
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kishanngupta/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/kishanngupta/LeetCode/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/kishanngupta/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/kishanngupta/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
