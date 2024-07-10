@@ -1,25 +1,22 @@
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
-        let s = Array(s)
-        var i = 0
-        var j = 0
-        var maxi=0
-        var hash:[Character: Int] = [:]
+        var s = Array(s)
+        var hash: [Character: Bool] = [:]
+        var count = 0
+        var left = 0
 
-        while(j<s.count) {
-            let char = s[j]
-            if let value = hash[char] {
-                for k in i...value {
-                    hash[s[k]] = nil
-                }
-                hash[char] = j
-                i = value+1
-            } else {
-                hash[char] = j
-                maxi = max(maxi,j-i+1)
+        for right in 0..<s.count {
+            let char = s[right]
+            
+            while hash[char] != nil {
+                let leftChar = s[left]
+                hash[leftChar] = nil
+                left+=1
             }
-            j+=1
+            hash[char] = true
+
+            count = max(count, right-left+1)
         }
-        return maxi
+        return count
     }
 }
