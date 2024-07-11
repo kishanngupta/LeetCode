@@ -1,6 +1,6 @@
 class Solution {
     func reverseParentheses(_ s: String) -> String {
-        var stack: [String] = []
+        var stack: [Character] = []
 
         for char in s {
             if char == ")" {
@@ -9,14 +9,12 @@ class Solution {
                     temp.append(stack.removeLast())
                 }
                 stack.removeLast()
-                for char in temp {
-                    stack.append("\(char)")
-                }
+                stack += Array(temp)
             } else {
-                stack.append("\(char)")
+                stack.append(char)
             }
         }
 
-        return stack.joined()
+        return String(stack)
     }
 }
