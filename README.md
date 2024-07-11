@@ -41,6 +41,7 @@
 | [0229-majority-element-ii](https://github.com/kishanngupta/LeetCode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/kishanngupta/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0835-linked-list-components](https://github.com/kishanngupta/LeetCode/tree/master/0835-linked-list-components) |
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kishanngupta/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -150,6 +151,7 @@
 | [0053-maximum-subarray](https://github.com/kishanngupta/LeetCode/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/kishanngupta/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/kishanngupta/LeetCode/tree/master/0070-climbing-stairs) |
+| [0416-partition-equal-subset-sum](https://github.com/kishanngupta/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 ## Union Find
 |  |
 | ------- |
