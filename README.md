@@ -58,6 +58,7 @@
 | [0205-isomorphic-strings](https://github.com/kishanngupta/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/kishanngupta/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0812-rotate-string](https://github.com/kishanngupta/LeetCode/tree/master/0812-rotate-string) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kishanngupta/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
@@ -161,6 +162,7 @@
 ## Stack
 |  |
 | ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kishanngupta/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
 ## Sliding Window
 |  |
