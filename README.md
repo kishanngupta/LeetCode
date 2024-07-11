@@ -44,6 +44,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kishanngupta/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1293-three-consecutive-odds](https://github.com/kishanngupta/LeetCode/tree/master/1293-three-consecutive-odds) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/kishanngupta/LeetCode/tree/master/1803-average-waiting-time) |
@@ -82,6 +83,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/kishanngupta/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0835-linked-list-components](https://github.com/kishanngupta/LeetCode/tree/master/0835-linked-list-components) |
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
 ## Two Pointers
 |  |
@@ -130,6 +132,7 @@
 | [0048-rotate-image](https://github.com/kishanngupta/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -171,6 +174,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/kishanngupta/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kishanngupta/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
