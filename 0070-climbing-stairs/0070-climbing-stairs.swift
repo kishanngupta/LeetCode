@@ -1,18 +1,20 @@
 class Solution {
-    /// Solving it using the tabular
-    var dp: [Int] = []
-    
     func climbStairs(_ n: Int) -> Int {
-        dp = Array(repeating: -1, count: n+1)
+        var dp: [Int] = Array(repeating: -1, count: n+1)
         
-        for i in (0..<n+1).reversed() {
-            if i == n || i == n-1 {
-                dp[i] = 1
-            } else {
-                dp[i] = dp[i+1] + dp[i+2]
+        func climb(_ i: Int) -> Int {
+            if i == 0 {
+                return 1
+            } else if i<0 {
+                return 0
+            } else if dp[i] != -1 {
+                return dp[i]
             }
+
+            dp[i] = climb(i-1) + climb(i-2)
+            return dp[i]
         }
-        return dp[0]
+
+        return climb(n)
     }
-    
 }
