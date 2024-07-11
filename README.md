@@ -130,6 +130,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/kishanngupta/LeetCode/tree/master/0048-rotate-image) |
+| [0070-climbing-stairs](https://github.com/kishanngupta/LeetCode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -146,6 +147,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/kishanngupta/LeetCode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/kishanngupta/LeetCode/tree/master/0070-climbing-stairs) |
 ## Union Find
 |  |
 | ------- |
@@ -180,4 +182,8 @@
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kishanngupta/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/kishanngupta/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
