@@ -49,6 +49,7 @@
 | [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/kishanngupta/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/kishanngupta/LeetCode/tree/master/1803-average-waiting-time) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kishanngupta/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
@@ -86,6 +87,7 @@
 | [0835-linked-list-components](https://github.com/kishanngupta/LeetCode/tree/master/0835-linked-list-components) |
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/kishanngupta/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
 ## Two Pointers
 |  |
@@ -112,6 +114,7 @@
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/kishanngupta/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
 ## Counting
 |  |
