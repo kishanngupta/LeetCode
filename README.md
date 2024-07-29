@@ -65,6 +65,7 @@
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kishanngupta/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/kishanngupta/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Simulation
 |  |
@@ -88,6 +89,7 @@
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kishanngupta/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/kishanngupta/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/kishanngupta/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2331-intersection-of-multiple-arrays](https://github.com/kishanngupta/LeetCode/tree/master/2331-intersection-of-multiple-arrays) |
 ## Two Pointers
 |  |
@@ -143,6 +145,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/kishanngupta/LeetCode/tree/master/0268-missing-number) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/kishanngupta/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -190,6 +193,7 @@
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/kishanngupta/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kishanngupta/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/kishanngupta/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Memoization
 |  |
 | ------- |
