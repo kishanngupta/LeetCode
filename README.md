@@ -66,6 +66,7 @@
 | [1542-consecutive-characters](https://github.com/kishanngupta/LeetCode/tree/master/1542-consecutive-characters) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/kishanngupta/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/kishanngupta/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [3426-minimum-number-of-chairs-in-a-waiting-room](https://github.com/kishanngupta/LeetCode/tree/master/3426-minimum-number-of-chairs-in-a-waiting-room) |
 ## Simulation
 |  |
@@ -99,6 +100,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/kishanngupta/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/kishanngupta/LeetCode/tree/master/0189-rotate-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kishanngupta/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/kishanngupta/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/kishanngupta/LeetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Binary Search
 |  |
@@ -128,6 +130,7 @@
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/kishanngupta/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/kishanngupta/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Linked List
 |  |
 | ------- |
@@ -180,6 +183,7 @@
 | ------- |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kishanngupta/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/kishanngupta/LeetCode/tree/master/1720-crawler-log-folder) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/kishanngupta/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 ## Sliding Window
 |  |
 | ------- |
